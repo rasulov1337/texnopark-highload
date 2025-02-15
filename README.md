@@ -6,6 +6,28 @@
 
 Google Maps — это сервис картографии и навигации, предоставляющий пользователям информацию о геолокации, маршрутах, пробках и панорамах улиц.
 
+### Продуктовые метрики
+
+-   **100M+ MAU (сайт maps.google.com)**[^1]
+-   **1B+ MAU в целом на всех устройствах**[^2]
+-   **доступно в 250+ странах**[^1]
+-   **пиковые нагрузки** приходятся на утренние (08:00-09:30) и вечерние (17:30-19:00) часы, совпадающие с периодами массовых поездок
+-   веб-версией пользуются намного реже чем мобильной
+-   продолжительность пользование веб-версией намного ниже чем мобильной
+-   Средний размер пользовательского сеанса варьируется от 1.8 МБ (базовый поиск объектов в веб-интерфейсе) до 148 МБ для сессий с активным использованием 3D-навигации и Street View
+-   **100M+** обновлений данных ежедневно
+-   **250M+** бизнесов и мест[^1]
+-   среднее время сессии в веб-версии: **2 секунды**, в мобильной версии: **18 минут**
+-   Google Maps использует на мобильных платформах ~2.2 MB в час (https://www.statista.com/statistics/1186009/data-use-leading-us-navigation-apps/)
+-   (по США) Google Maps используется **50 раз** в месяц
+-   (по США) В среднем сессия длится **3 минуты**
+-   20 миллионов обновлений информации каждый день (200 обновлений/сек) (https://mapsplatform.google.com/resources/blog/9-things-know-about-googles-maps-data-beyond-map/)
+-   500M пользователей, которые добавляют новую информацию каждый год (https://blog.google/products/maps/20-years-google-maps-20-features/)
+-   За май 2023 года сайт Google Maps посетили 196.8 млн раз (https://www.enterpriseappstoday.com/stats/google-maps-statistics.html#:~:text=Google%20Maps%20website%20had%20a%20record%20number%20of%20visits.%20Google%20Maps%20website%20had%20around%20196.8%20million%20visits%20total%20in%20May%202023.)
+-   В среднем в день приложение скачивают около 7 млн раз в Google Play (https://www.appbrain.com/app/google-maps/com.google.android.apps.maps)
+-   On average, Google Maps uses around 2.19MB of data for every hour you’re on the road (https://www.allconnect.com/blog/how-much-data-does-google-maps-use#:~:text=Google%20Maps%20uses%20around%202.19MB%20of%20data%20for%20every%20hour%20you%E2%80%99re%20on%20the%20road)
+-
+
 ### **Целевая аудитория**
 
 #### **Пользователи:**
