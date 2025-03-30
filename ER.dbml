@@ -1,0 +1,87 @@
+Table category {
+  id SMALLSERIAL [primary key]
+  title VARCHAR(16)
+}
+
+Table place {
+  id UUID [primary key]
+  title VARCHAR(50)
+  desc VARCHAR(300)
+  category_id SMALLSERIAL [not null, ref: > category.id]
+  member_id UUID [note: 'Can refer to node.id, way.id & relation.id']
+  rating REAL
+  phone VARCHAR(20)
+  site VARCHAR(255)
+}
+
+Table review {
+  id UUID [primary key]
+  user_id UUID [not null, ref: - user.id]
+  place_id UUID [not null, ref: > place.id]
+  text VARCHAR(100)
+  rating REAL
+}
+
+
+Table user {
+  id UUID [primary key]
+  name VARCHAR(100)
+  email VARCHAR(120)
+  login VARCHAR(70)
+  password_hash VARCHAR(128)
+}
+
+Table node {
+  id UUID [primary key]
+  latitude NUMERIC(6,9)
+  longitude NUMERIC(6,9)
+}
+
+Table node_tag {
+  id UUID [primary key]
+  node_id UUID [not null, ref: > node.id]
+  key VARCHAR(100)
+  value VARCHAR(100)
+}
+
+Table way {
+  id UUID [primary key]
+}
+
+Table way_node {
+  id UUID [primary key]
+  way_id UUID [not null, ref: > way.id]
+  node_id UUID [not null, ref: > node.id]
+  sequence_id INTEGER
+}
+
+Table way_tag {
+  id UUID [primary key]
+  way_id UUID [not null, ref: > way.id]
+  key VARCHAR(100)
+  value VARCHAR(100)
+}
+
+Table relation {
+  id UUID [primary key]
+}
+
+Table relation_tag {
+  id UUID [primary key]
+  relation_id UUID [not null, ref: > relation.id]
+  key VARCHAR(100)
+  value VARCHAR(100)
+}
+
+Table relation_member {
+  id UUID [primary key]
+  relation_id UUID [not null, ref: > relation.id]
+  member_id UUID [note: 'Can refer to node.id, way.id & relation.id']
+  member_type SMALLSERIAL [not null, ref: > member_type.id]
+  sequence_id INTEGER
+}
+
+Table member_type {
+  id SMALLSERIAL [primary key]
+  value VARCHAR(100)
+}
