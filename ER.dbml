@@ -27,14 +27,12 @@ Table user {
   id UUID [primary key]
   name VARCHAR(100)
   email VARCHAR(120)
-  login VARCHAR(70)
   password_hash VARCHAR(128)
 }
 
 Table node {
   id UUID [primary key]
-  latitude NUMERIC(6,9)
-  longitude NUMERIC(6,9)
+  coord GEOMETRY(Point, 4326)
 }
 
 Table node_tag {
@@ -84,4 +82,13 @@ Table relation_member {
 Table member_type {
   id SMALLSERIAL [primary key]
   value VARCHAR(100)
+}
+
+Table tile_cache {
+  id UUID [pk]
+  x INTEGER
+  y INTEGER
+  z INTEGER [note: 'Zoom level']
+  rendered_at TIMESTAMP
+  expires_at TIMESTAMP
 }
