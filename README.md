@@ -428,7 +428,7 @@ Anycast сети будут использоваться в США, так ка�
 [^1]: [Анализ веб-трафика maps.google.com](https://www.similarweb.com/website/maps.google.com/#geography)
 [^2]: [Почему Google? Сайт Google с описанием преимуществ Google Maps](https://mapsplatform.google.com/why-google/)
 [^3]: [Leading US Map and Navigation Smartphone Apps, Ranked by Monthly Unique Users, Aug 2019](https://www.emarketer.com/chart/234831/leading-us-map-navigation-smartphone-apps-ranked-by-monthly-unique-users-aug-2019)
-[^4]: [20 things you didn’t know you could do with Google Maps](https://blog.google/products/maps/20-years-google-maps-20-features/)
+[^4]: [20 things you didn't know you could do with Google Maps](https://blog.google/products/maps/20-years-google-maps-20-features/)
 [^5]: [Google Maps Statistics 2024 By Usage, Revenue, Accuracy, Traffic Data, Trends, Web Usage and API Usage](https://www.enterpriseappstoday.com/stats/google-maps-statistics.html#:~:text=Google%20Maps%20website%20had%20a%20record%20number%20of%20visits.%20Google%20Maps%20website%20had%20around%20196.8%20million%20visits%20total%20in%20May%202023.)
 [^6]: [Google Maps on AppBrain](https://www.appbrain.com/app/google-maps/com.google.android.apps.maps)
 [^7]: [Сколько данных используют Google Maps?](https://truely.com/blog/how-much-data-does-google-maps-use#:~:text=with%20Standard%20Mode-,5%2D10%20MB,-Navigation%20with%20Traffic)
