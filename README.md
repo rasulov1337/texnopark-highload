@@ -457,13 +457,15 @@ Anycast сети будут использоваться в США, так ка�
 
 ## Таблица развертывания
 
-| Сервис              | Хостинг           | Конфигурация                              | Cores | Cnt | Аренда в рублях за 1 машину |
-| ------------------- | ----------------- | ----------------------------------------- | ----- | --- | --------------------------- |
-| auth                | self-hosted       | AMD Ryzen 7 7700/256GB/2x2TB NVMe/1x1Gbps | 16    | 2   | ~15k/mo                     |
-| tile render         | bare-metal аренда | 2xEPYC 9474F/256GB/2x2TB NVMe/1x1Gbps     | 192   | 7   | ~120k/mo                    |
-| routing service     | self-hosted       | 2xEPYC 9474F/256GB/2x2TB NVMe/1x1Gbps     | 192   | 2   | ~120k/mo                    |
-| map query           | self-hosted       | AMD Ryzen 7 7700/256GB/2x2TB NVMe/1x1Gbps | 16    | 2   | ~15k/mo                     |
-| places data service | self-hosted       | AMD Ryzen 7 7700/256GB/2x2TB NVMe/2x2Gbps | 64    | 2   | ~30k/mo                     |
+
+
+| Сервис              | Хостинг     | Конфигурация                              | Cnt | Ежемесячно (Аморт./Аренда)  |
+|:------------------- |:----------- |:----------------------------------------- |:---:|:---------------------------:|
+| auth                | self-hosted | AMD Ryzen 7 7700/256GB/2x2TB NVMe/1x1Gbps | 2   | **~7 667 ₽/мес** (Аморт.)   |
+| tile render         | аренда      | 2xEPYC 9474F/256GB/2x2TB NVMe/1x1Gbps     | 7   | ****45 000 ₽/мес** (Аморт.) |
+| routing service     | self-hosted | 2xEPYC 9474F/256GB/2x2TB NVMe/1x1Gbps     | 2   | **45 000 ₽/мес** (Аморт.)   |
+| map query           | self-hosted | AMD Ryzen 7 7700/256GB/2x2TB NVMe/1x1Gbps | 2   | **~7 667 ₽/мес** (Аморт.)   |
+| places data service | self-hosted | AMD Ryzen 7 7700/256GB/2x2TB NVMe/2x2Gbps | 2   | **~7 833 ₽/мес** (Аморт.)   |
 
 # Список источников
 
@@ -486,5 +488,4 @@ Anycast сети будут использоваться в США, так ка�
 [^17]: [How reviews on Google Maps work](https://blog.google/products/maps/how-google-maps-reviews-work/#:~:text=With%20millions%20of%20reviews%20posted%20every%20day%20from%20people%20around%20the%20world)
 [^18]: [Исследования Яндекса — Как хвалят и ругают рестораны и бары](https://yandex.ru/company/researches/2023/orgs-reviews#:~:text=%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9A%D0%B0%D1%80%D1%82%D1%8B%20%D0%B5%D0%B6%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%BE%20%D1%81%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D1%8E%D1%82%2037%20%D1%82%D1%8B%D1%81%D1%8F%D1%87%20%D0%BE%D1%82%D0%B7%D1%8B%D0%B2%D0%BE%D0%B2)
 [^19]: [По пути с рекламой: новые возможности геомедийных форматов для ещё большего охвата — Новости рекламных технологий Яндекса](https://yandex.ru/adv/news/po-puti-s-reklamoy-novye-vozmozhnosti-geomediynykh-formatov-dlya-esche-bolshego-okhvata#:~:text=%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%9A%D0%B0%D1%80%D1%82%20%D0%B8%C2%A0%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80%D0%B0%C2%A0%E2%80%94%20%D1%81%D0%B0%D0%BC%D1%8B%D0%B5%20%D0%BE%D1%85%D0%B2%D0%B0%D1%82%D0%BD%D1%8B%D0%B5%20%D0%B8%D0%B7%C2%A0%D0%93%D0%B5%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%BE%D0%B2.%20%D0%98%D1%85%C2%A0%D0%B5%D0%B6%D0%B5%D0%BC%D0%B5%D1%81%D1%8F%D1%87%D0%BD%D0%B0%D1%8F%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%B0%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%2037)
-
 [^20]: [JSON Size Analyzer | DebugBear](https://www.debugbear.com/json-size-analyzer)
