@@ -15,9 +15,8 @@ Table place {
 }
 
 Table review {
-  id UUID [primary key]
-  user_id UUID [not null, ref: - user.id]
-  place_id UUID [not null, ref: > place.id]
+  place_id UUID [pk, note: "Partition key", ref: - place.id]
+  user_id UUID [pk, note: "Clustering key", ref: - user.id]
   text VARCHAR(100)
   rating REAL
 }
